@@ -1,0 +1,17 @@
+.primaryColor{
+    color: #0369A1;
+}
+.spinner {
+    width: 24px;
+    height: 24px;
+    border: 2px solid transparent;
+    border-top-color: white;
+    border-radius: 80%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
